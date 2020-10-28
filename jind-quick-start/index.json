@@ -8,6 +8,10 @@
       {
         "title": "Step 1",
         "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
       }
     ],
     "intro": {
@@ -20,8 +24,16 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Port 8080", "port": 8080},
-        {"name": "Jenkins host", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/somepage", "port": 8080}],
+      {
+        "name": "Port 8080",
+        "port": 8080
+      },
+      {
+        "name": "Jenkins host",
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/somepage",
+        "port": 8080
+      }
+    ],
     "uilayout": "terminal-iframe"
   },
   "backend": {
