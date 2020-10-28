@@ -1,0 +1,38 @@
+{
+  "title": "Jenkins in Docker Daemon Quick Start",
+  "description": "This scenario shows the quickest way to start Jenkins in Docker as daemon process. It is intended for those, who hadn't seen before Jenkins running in Docker.",
+  "difficulty": "Beginner",
+  "time": "5-10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      },
+      {
+        "title": "",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Jenkins host",
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/somepage",
+        "port": 8080
+      }
+    ],
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}
