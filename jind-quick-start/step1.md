@@ -8,11 +8,11 @@ Docker is installed on your machine (Docker for Mac or Docker for Windows will w
 
 - Open the terminal and run the following command:
 
-            `docker run -p 8080:8080 jenkins/jenkins:lts` {{execute}}
+            `docker run -p 8080:8080 jenkins/jenkins:lts`{{execute}}
 
 - Wait till Jenkins starts up (Jenkins is up and running message in the log)
 
-- Go to [your Jenkins host](http://localhost:8080). You should see the Jenkins web interface with the Installation wizard.
+- Go to [your Jenkins host](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com). You should see the Jenkins web interface with the Installation wizard.
 
 - To unlock the Jenkins instance - go to the terminal and find the following message in the startup log:
 

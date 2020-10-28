@@ -1,6 +1,6 @@
 {
   "title": "Jenkins in Docker Quick Start",
-  "description": "TBD",
+  "description": "This scenario shows the quickest way to start Jenkins in Docker. It is intended for those, who hadn't seen before Jenkins running in Docker.",
   "difficulty": "Beginner",
   "time": "2 minutes",
   "details": {
@@ -18,7 +18,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "showdashboard": true,
+    "dashboards": [
+        {"name": "Port 8080", "port": 8080},
+        {"name": "Jenkins host", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/somepage", "port": 8080}],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu1804"
