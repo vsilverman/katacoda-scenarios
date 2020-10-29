@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "",
         "text": "step2.md"
       }
     ],
@@ -24,10 +24,6 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-      {
-        "name": "Port 8080",
-        "port": 8080
-      },
       {
         "name": "Jenkins host",
         "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/",
