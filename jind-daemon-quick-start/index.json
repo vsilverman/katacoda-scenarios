@@ -26,7 +26,7 @@
     "dashboards": [
       {
         "name": "Jenkins host",
-        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/somepage",
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/",
         "port": 8080
       }
     ],
